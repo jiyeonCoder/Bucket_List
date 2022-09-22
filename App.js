@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-//import "./App.css";
 import "./style.css";
 
 import React from "react";
@@ -15,7 +14,6 @@ class App extends React.Component {
   }
 
   render() {
-    //console.log(this.state.list);
     return (
       <div className="App">
         <div className="container">
@@ -27,13 +25,5 @@ class App extends React.Component {
     );
   }
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <BucketList />
-//     </div>
-//   );
-// }
 
 export default App;
