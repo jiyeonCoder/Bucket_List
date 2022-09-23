@@ -26,4 +26,16 @@ class App extends React.Component {
   }
 }
 
+const MyStyled = styled.div`
+  width: 50vw;
+  height: 150px;
+  background-color: ${(props) => (props.bg_color ? "red" : "purple")};
+  p {
+    color: blue;
+  }
+  &:hover {
+    background-color: yellow;
+  }
+`;
+
 export default App;
